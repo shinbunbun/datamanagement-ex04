@@ -20,8 +20,8 @@ fn main() {
     }
     println!("Heads: {}, Tails: {}", 3 - tail, tail);
     if tail < 2 {
-        println!("You won");
+        println!("{} won", name.trim_end());
     } else {
-        println!("You lost");
+        println!("{} lost", name.trim_end());
     }
 }
