@@ -11,4 +11,9 @@ fn main() {
         println!("Round {}: {}", i + 1, coin[rand]);
     }
     println!("Heads: {}, Tails: {}", 3 - tail, tail);
+    if tail < 2 {
+        println!("You won");
+    } else {
+        println!("You lost");
+    }
 }
